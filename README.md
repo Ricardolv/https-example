@@ -6,7 +6,7 @@
 - server.ssl.key-password=password
 - server.ssl.key-store=classpath:https-example.jks
 
-#Comand - 1: 
+#Comand: 
 `keytool -genkey -alias https-example -storetype JKS -keyalg RSA -keysize 2048 -validity 365 -keystore https-example.jks`
 
 ![picture](data/comand-1.png)
@@ -25,6 +25,7 @@ Out - insert password.
 ![picture](data/out.png)
 
 - cp https-example.jks path-project/src/main/resources
+
 -example:
    ![picture](data/jks.png)
    
