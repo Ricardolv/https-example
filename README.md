@@ -26,12 +26,13 @@ Out - insert password.
 
 - cp https-example.jks path-project/src/main/resources
 
--example:
-   ![picture](data/jks.png)
+![picture](data/jks.png)
    
 #test browser
+
 ![picture](data/browser.png)
 
 #certification
+
 ![picture](data/certification.png)
 
